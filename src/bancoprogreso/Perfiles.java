@@ -21,13 +21,13 @@ public class Perfiles {
          * inicializamos con los colaboradores del banco perfiles: perfile de la
          * aplicacion: administrador,funcionario, cliente
          */
-        String[] admin = { "Sergio", "Correa", "1111111", "100000", "2020-30-12", "0" };
+        String[] admin = { "Sergio", "Correa", "1", "0", "2020-30-12", "0" };
         accion.crearUsuarios(admin);
 
-        String[] funcionario = { "Carlos", "ortigoza", "222222", "500000", "2020-30-12", "1" };
+        String[] funcionario = { "Carlos", "ortigoza", "0", "500000", "2020-30-12", "1" };
         accion.crearUsuarios(funcionario);
 
-        String[] cliente = { "Nicolas", "Martinez", "333333", "500000", "2020-30-12", "2" };
+        String[] cliente = { "Nicolas", "Martinez", "2", "500000", "2020-30-12", "2" };
         accion.crearUsuarios(cliente);
     }
 

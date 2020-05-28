@@ -11,10 +11,6 @@ package bancoprogreso;
  */
 public class BancoProgreso extends Perfiles {
 
-    public BancoProgreso() {
-
-    }
-
     /*
      * por medio de la digitacion de cedula verificara 
      * si existe se desplegara menu de acuerdo a su perfil
